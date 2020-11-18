@@ -11,8 +11,9 @@ body {
     padding: 1rem;
 }
 #logo, button {
-    background: linear-gradient(#465, #354 40%, #132 80%, #132);
-    color: #f9f4f0;
+    /*background: linear-gradient(#465, #354 40%, #132 80%, #132); `old colors` */
+    background: linear-gradient(90deg, rgba(0,1,32,0.9839286056219363) 28%, rgba(155,141,87,1) 89%);
+    color: #9B8D57; /*#f9f4f0 `old colors` */
 }
 #logo {
     text-transform: uppercase;
