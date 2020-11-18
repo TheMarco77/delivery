@@ -10,10 +10,11 @@ body {
     margin: 0 auto;
     padding: 1rem;
 }
-#logo, button {
+#logo, button, a:visited, a:link {
     /*background: linear-gradient(#465, #354 40%, #132 80%, #132); `old colors` */
     background: linear-gradient(90deg, rgba(0,0,0,1) 100%, rgba(155,141,87,1) 100%);
-    color: #9B8D57; /*#f9f4f0 `old colors` */
+    color: #F8F4F0; /*#f9f4f0 `old colors` #9B8D57*/
+    text-decoration: none;
 }
 #logo {
     text-transform: uppercase;
