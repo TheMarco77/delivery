@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +13,6 @@
     <!-- add FontAwesome here -->
     <script src="https://kit.fontawesome.com/56a101e988.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
     <header>
         <div id="logo">
@@ -40,41 +38,39 @@
                     <p>6 items, <span class="check"></span> $31.44</p>
                 </div>
             </div>
-            <!-- form goes here. -->
+            <!-- form starts here. -->
             <form>
                 <fieldset>
                     <legend>Delivery Information</legend>
                     <p class="hint">* - required field</p>
-                    
+                    <!-- name -->
                     <label for="name"> Your name *</label>
-                    <input type="text" id="name" name="user-name" placeholder="Name" required/>
-
+                    <input type="text" id="name" name="user-name" placeholder="Your name" required/>
+                    <!-- email address -->
                     <label for="email">Email Address *</label>
-                    <input type="email" id="email" name="user-email">
-                    <p class="hint">Receipt will be sent to this address.</p>
-
-                    <label for="address1">Street address1 *</label>
-                    <input type="text" id="address1" name="user-address1">
-
-                    <label for="address2">Apartment/Office Number</label>
-                    <input type="text" id="address2" name="user-address2">
-
-                    <label for="Zip">Zip Code *</label>
-                    <input type="text" id="zip" name="user-zip">
-                    <p class="hint">City and state will be looked up from Zip Code.</p>
-
+                    <input type="email" id="email" name="user-email" placeholder="Receipt will be sent to this email address automatically" required/>
+                    <!-- street address -->
+                    <label for="address1">Street address *</label>
+                    <input type="text" id="address1" name="user-address1" placeholder="Street Address" required/>
+                    <!-- city -->
+                    <label for="city">City *</label>
+                    <input type="text" id="city" name="user-city" placeholder="City" required/>
+                    <!-- zip code -->
+                    <label for="zip">Zip Code *</label>
+                    <input type="text" id="zip" name="user-zip" placeholder="Zip code" required/>
+                    <!-- phone number -->
                     <label for="phone">Phone</label>
                     <input type="tel" id="phone" name="user-phone">
                     <p class="hint">No Phone? Include alternate contact below.</p>
-                    
+                    <!-- delivery instructions -->
                     <label for="delivery-instructions">Delivery Instructions</label>
                     <textarea id="delivery-instructions" name="user-delivery-instructions"></textarea>
-                    
-                    <button type="submit"><a href="billing.html">Continue to billing</button>
+                    <!-- submit button-->
+                    <button type="submit"><a href="billing.html"></a>Continue to billing</button>
                 </fieldset>
             </form>
+            <!-- form ends here-->
         </div>
     </main>
 </body>
-
 </html>
