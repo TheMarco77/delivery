@@ -43,47 +43,45 @@
             <!-- form goes here. -->
             <form>
                 <fieldset>
-                    <!-- Requirements -->
+                    <!-- Requirements information -->
                     <legend>Delivery Information</legend>
                     <p class="hint">* Required Field</p>
 
                     <!-- first name -->
                     <label for="firstName">First Name *</label>
-                    <input type="text" id="firstName" name="user-name">
+                    <input type="text" id="firstName" name="user-name" placeholder="First Name" required />
                     
                     <!-- last name-->
                     <label for="lastName">Last Name *</label>
-                    <input type="text" id="lastName" name="user-name">
+                    <input type="text" id="lastName" name="user-name" placeholder="Last Name" required />
 
                     <!-- address 1-->
-                    <label for="address1">Address 1 *</label>
-                    <input type="text" id="address1" name="user-address1">
+                    <label for="address">Address *</label>
+                    <input type="text" id="address" name="user-address1" placeholder="Address" required />
 
                     <!-- billing address -->           
                     <label for="address2">Billing address: If different </label>
-                    <input type="text" id="address2" name="user-address2">
+                    <input type="text" id="address2" name="user-address2" placeholder="Billing address: If different">
 
                     <!-- zip code -->
-                    <label for="Zip">Zip Code *</label> <!-- class="error-text" --> <!-- <i class="fas fa-exclamation-triangle"></i> -->
-                    <input type="text" id="zip" name="user-zip"> <!-- class="error-input"-->
-                    <!-- class="hint error-text" -->
-
+                    <label for="zip">Zip Code *</label>
+                    <input type="text" id="zip" name="user-zip" placeholder="zip code" required />
+                    
                     <!-- city -->
                     <label for="city">City *</label>
-                    <input type="text" id="city" name="user-city">
+                    <input type="text" id="city" name="user-city" placeholder="City" required />
 
                     <!-- state -->
                     <label for="state">State *</label>
-                    <input type="text" id="state" name="user-state">
+                    <input type="text" id="state" name="user-state" placeholder="State" required />
 
                     <!-- phone -->
                     <label for="phone">Phone</label>
-                    <input type="tel" id="phone" name="user-phone">
-                    <p class="hint">No Phone?<br>Include alternate contact on the delivery Instructions field.</p>
-
+                    <input type="tel" id="phone" name="user-phone" placeholder="Phone Please" required />
+                    
                     <!-- email -->
-                    <label for="email">Email *</label> <!-- class="error-text" --> <!-- <i class="fas fa-exclamation-triangle"></i> -->
-                    <input type="email" id="email" name="user-email"> <!-- class="error-input" -->
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="user-email" placeholder="Email address" required />
                     <p class="hint error-text">Email address must contain a single @.</p>
                     
                     <!-- delivery instructions -->
